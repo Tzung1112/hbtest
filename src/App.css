@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
+width: 100%;
+  height:100%;
   display: flex;
-  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bang{
+width: 500px;
+  height: 100%;
+  border: 1px solid blue;
+  padding: 20px;
+  border-radius: 5px;
+}
+.bang .input .header{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.bang .input .header button{
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+margin-top: 30px;
+width: 75px;
+height: 40px;
+border-radius: 5px;
+background-color: rgb(230, 46, 45);
 }
-
-.App-link {
-  color: #61dafb;
+.bang .input .header h1{
+  font-size: 50px;
+  padding: 10px;
 }
+.bang .input .body {
+  width: 100%;
+  height: 100%;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.bang .input .footer{
+  width: 100%;
+    height: 100%;
+}
+.checkbox{
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.checkbox .check{
+  margin-left: 150px;
+}
+.saveButton{
+  width: 100%;
+  background-color: black !important;
+}
+.outitem{
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  align-items: center;
+}
+.item{
+  height: 100px;
+  margin-bottom: 10px;
+ background-color: rgb(242, 241, 241);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+}
+.item .xanhle{
+  height: 100px;
+  width: 5px;
+  background-color: greenyellow;
+}
+.text{
+  margin-left: 30px;
+  width: 85%;
+  align-items: center;
+  height: 80px;
+  margin-top: 20px;
+}
+.delete{
+  background-color: aqua;
+  display: flex;
+}
+.delete button{
+  align-items: center;
+font-weight: 700;
+color: red;
+
 }

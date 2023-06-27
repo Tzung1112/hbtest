@@ -1,0 +1,15 @@
+{
+  "input": [],
+  "output": [
+    {
+      "id": 1,
+      "task": "Product 1",
+      "time": 10.99
+    },
+    {
+      "id": 2,
+      "task": "Product 2",
+      "time": 19.99
+    }
+  ]
+}
